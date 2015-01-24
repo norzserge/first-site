@@ -39,23 +39,23 @@
 					<tr>
 						<td id="main-skills">
 							<b>Ключевые навыки</b>
-							<div id="skills-wrap">
-								<div class="skill">photoshop</div>
-								<div class="skill">html</div>
-								<div class="skill">css</div>
-								<div class="skill">less</div>
-								<div class="skill">seo</div>
-								<div class="skill">jquery</div>
-								<div class="skill">joomla</div>
-								<div class="skill">wordpress</div>
-								<div class="skill">drupal</div>
-							</div>
+							<ul id="skills-wrap">
+								<li>photoshop</li>
+								<li>html</li>
+								<li>css</li>
+								<li>less</li>
+								<li>seo</li>
+								<li>jquery</li>
+								<li>joomla</li>
+								<li>wordpress</li>
+								<li>drupal</li>
+							</ul>
 						</td>
 					</tr>
 				</table>
 			</div>
 			<div class="work-experience">			<!-- EXPERIENCE -->
-				<h1>Опыт работы</h1>
+				<h2>Опыт работы</h2>
 				<table>
 					<tr>
 						<td><img src="images/bag.png" alt="" /></td>
@@ -84,7 +84,7 @@
 				</table>
 			</div>
 			<div class="education">					<!-- EDUCATION -->
-				<h1>Образование</h1>
+				<h2>Образование</h2>
 				<table>
 					<tr>
 						<td><img src="images/cap.png"></td>

@@ -45,9 +45,6 @@ exit();
 					У вас интересный проект? Напишите мне
 				</div>
 				<div class="blue-line"></div>
-
-
-
 				<form class="contact_form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 					<div class="form-body">
 						<table border="0"> 

@@ -180,9 +180,6 @@ header {
         border-radius: 5px;
         li {
             list-style: none;
-            /*height: 50px;
-            line-height: 50px;
-            padding: 10px 0 10px 35px;*/
             a {
                 color:@mainTextColor;
                 text-decoration: none;
@@ -297,6 +294,25 @@ header {
 
 /* main info */
 
+h1 {
+        display: block;
+        float:left;
+        font-size: 27px; 
+        margin: 0 0 20px 0;
+        padding: 12px 23px 12px 23px;
+        color: @headerColor;
+        border-bottom: 2px solid @headerColor;
+}
+h2 {
+        display: block;
+        float:left;
+        font-size: 27px; 
+        margin: 0 0 20px 0;
+        padding: 12px 23px 12px 23px;
+        color: @headerColor;
+        border-bottom: 2px solid @headerColor;
+}
+
 .main-info {
     background-color: @bgColor;
     font-family: 'fira_sansbook';
@@ -305,22 +321,17 @@ header {
     border-radius: 5px;
     padding: 0 0 20px 0; 
     margin: 0 0 20px 0;   
-    h1 {
-        width: 320px;
-        font-size: 27px; 
-        margin: 0;
-        padding: 12px 0 12px 23px;
-        color: @headerColor;
-        border-bottom: 2px solid @headerColor;
-    }
+
     img {
-        margin:20px;
+        margin:0 25px;
         float: left;
         width:150px;
+        clear: both;
     }
     table {
         font: 15px 'fira_sansbook';
-        margin: 15px 0 0 0;
+        margin: 0;
+        min-width: 380px;
         color:#4a545d;
         td b {
             margin: 0 15px 0 0;
@@ -333,10 +344,13 @@ header {
 #skills-wrap {
     float:left; 
     width:290px;
+    padding: 0;
+    margin: 0;
 }
-.skill {
+#skills-wrap li {
     padding: 0 15px;
     margin: 4px 4px;
+    list-style: none;
     color: #fff;
     font-size: 14px;
     -webkit-border-radius: 5px;
@@ -352,7 +366,7 @@ header {
     background: linear-gradient(to bottom,  rgb(59,168,192) 0%,rgb(59,168,192) 48%,rgb(46,140,162) 51%,rgb(46,140,162) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ba8c0', endColorstr='#2e8ca2',GradientType=0 )
 }
-.skill:hover {
+#skills-wrap li:hover {
     opacity:0.9;
     filter:alpha(opacity=90);
     cursor: default;
@@ -367,16 +381,9 @@ header {
     -moz-border-radius: 5px;
     border-radius: 5px;
     margin: 0 0 10px 0;
-    h1 {
-        width: 195px;
-        font-size: 27px; 
-        margin: 0;
-        padding: 12px 0 12px 23px;
-        color: @headerColor;
-        border-bottom: 2px solid @headerColor;
-    }
     table {
-        margin:20px 0 15px 24px;
+        margin:20px 24px 15px 24px;
+        clear:both;
         tr td {
             vertical-align: top;
             padding-bottom: 15px;
@@ -403,16 +410,9 @@ header {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    h1 {
-        width: 195px;
-        font-size: 27px; 
-        margin: 0;
-        padding: 12px 0 12px 23px;
-        color: @headerColor;
-        border-bottom: 2px solid @headerColor;
-    }
     table {
-        margin:20px 0 15px 24px;
+        margin:20px 24px 15px 24px;
+        clear:both;
         tr td {
             vertical-align: top;
             padding-bottom: 15px;
@@ -485,6 +485,9 @@ footer {
             }
         }
     }
+}
+.my-works-wrap {
+    clear:both;
 }
 .caption img {
     width:170px;
@@ -815,7 +818,7 @@ footer {
 }
   
 #boxes .window {
-  position:absolute;
+  position:fixed;
   left:0;
   top:0;
   width:430px;
