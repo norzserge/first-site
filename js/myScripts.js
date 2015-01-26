@@ -6,12 +6,12 @@ $(document).ready(function(){
         var link = this.href;                // переменная с url ссылки
         var result = location.match(link);  // результат возвращает объект если совпадение найдено и null при обратном      
         if (location == "http://portfolio.karandash.pw/.php") {    // добавляем класс active сразу при открытии корня сайта
-            $('.nav ul li:first').addClass('active');
+            $('.nav ul li:first').addClass('active-elem');
         }        
         if(result != null) {                // если НЕ равно null
-            $(this).parent().addClass('active');    // добавляем класс
+            $(this).parent().addClass('active-elem');    // добавляем класс
             if (location == "http://portfolio.karandash.pw/portfolio.php") {    // если выделяется пункт "Мои работы" делаем остальные ссылки с классом "no-active"
-                $('.nav ul li:not(.active)').children().addClass('no-active');
+                $('.nav ul li:not(.active-elem)').children().addClass('no-active');
             }
         }
     });
@@ -84,6 +84,12 @@ $(document).ready(function(){
             $('#text4').addClass('codeValid');
         }
     });
+
+    $("#menu-but").click(function(){
+        $(".nav").slideToggle("slow");
+        $(this).toggleClass("active"); return false;
+    });
+
 
 
 });

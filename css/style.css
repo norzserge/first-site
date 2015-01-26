@@ -14,6 +14,10 @@ html, body {
     height:100%;
 }
 
+header, nav, section, article, aside, footer {
+   display:block;
+}
+
 #footer {
     position:relative; 
     margin-top:-80px; 

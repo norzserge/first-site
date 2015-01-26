@@ -240,6 +240,13 @@
 			</div>
 		</div>
 		<div style="clear:both;"></div>
+		<div class="contacts-bottom">
+			<ul>
+				<li><img src="images/phone.png" alt="телефон" /><a href="tel:89818824000">+7 981 882 4000</a></li>
+				<li><img src="images/mail.png" alt="электронная почта" /><a href="mailto:metelskiisa@mail.ru">metelskiisa@mail.ru</a></li>
+				<li><img src="images/scype-logo.png" alt="телефон" /><a href="scype:metelskiysa?chat">metelskiysa</a></li>
+			</ul>
+		</div>
 	</div>
 
 	<?php require_once("pages/footer.php"); ?>
