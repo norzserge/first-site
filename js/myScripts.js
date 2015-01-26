@@ -4,9 +4,10 @@ $(document).ready(function(){
     $('.nav ul li a').each(function () {    // проходим по нужным нам ссылками
         var location = window.location.href + ".php"; // переменная с адресом страницы
         var link = this.href;                // переменная с url ссылки
+        alert(location);
         var result = location.match(link);  // результат возвращает объект если совпадение найдено и null при обратном      
         if (location == "http://portfolio.karandash.pw/.php") {    // добавляем класс active сразу при открытии корня сайта
-            $('.nav ul li:first').addClass('active-elem');
+            $('.nav ul li:first-child').addClass('active-elem');
         }        
         if(result != null) {                // если НЕ равно null
             $(this).parent().addClass('active-elem');    // добавляем класс
@@ -15,7 +16,7 @@ $(document).ready(function(){
             }
         }
     });
-//});
+
 
 // скрываем value полей при клике
 	$('input,textarea').focus(function(){
@@ -84,6 +85,8 @@ $(document).ready(function(){
             $('#text4').addClass('codeValid');
         }
     });
+
+    // меню для мобильных устройств
 
     $("#menu-but").click(function(){
         $(".nav").slideToggle("slow");
