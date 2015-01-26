@@ -4,14 +4,15 @@
 	<?php require_once("pages/head.php"); ?>
 	<title>Обо мне | LoftSchool</title>
 </head>
-<body>
-	<header>							<!-- HEADER -->
-		<?php require_once("pages/header.php"); ?>	
-	</header>
-	<div class="gradient-line"></div>
+<body>								
+	
+	<?php require_once("pages/header.php"); ?>			<!-- HEADER -->
+	
 	<div class="container">				<!-- CONTENT -->
 		<div class="left-column">			
+			
 			<?php require_once("pages/nav.php"); ?>		<!-- NAVIGATION -->
+			
 			<div class="contacts">		<!-- CONTACTS -->
 				<div>Контакты</div>
 				<div><img src="images/mail.png" alt="электронная почта" /><a href="mailto:metelskiisa@mail.ru">metelskiisa@mail.ru</a></div>
@@ -40,6 +41,7 @@
 						<td id="main-skills">
 							<b>Ключевые навыки</b>
 							<ul id="skills-wrap">
+								<li>web design</li>
 								<li>photoshop</li>
 								<li>html</li>
 								<li>css</li>
@@ -159,9 +161,8 @@
 		</div>
 		<div style="clear:both;"></div>
 	</div>
-	<div class="gradient-line"></div>
-	<footer>
-		<?php require_once("pages/footer.php"); ?>
-	</footer>
+
+	<?php require_once("pages/footer.php"); ?>
+
 </body>
 </html>

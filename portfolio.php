@@ -5,10 +5,7 @@
 	<title>Портфолио | LoftSchool</title>	
 </head>
 <body>
-	<header>							<!-- HEADER -->
-		<?php require_once("pages/header.php"); ?>	
-	</header>
-	<div class="gradient-line"></div>
+	<?php require_once("pages/header.php"); ?>			<!-- HEADER -->
 	<div class="container">				<!-- CONTENT -->
 		<div class="left-column">
 			<?php require_once("pages/nav.php"); ?>		<!-- NAVIGATION -->
@@ -244,9 +241,8 @@
 		</div>
 		<div style="clear:both;"></div>
 	</div>
-	<div class="gradient-line"></div>
-	<footer>
-		<?php require_once("pages/footer.php"); ?>
-	</footer>
+
+	<?php require_once("pages/footer.php"); ?>
+
 </body>
 </html>
