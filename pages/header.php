@@ -12,9 +12,7 @@
 	<div class="header-content">
 		<a href="#" title="На главную">
 			<div id="logo">				
-				LOFTSCHOOL
-				<div id="separate-line"></div>
-				<div id="slogan">комплексное обучение web разработке</div>				
+				<img src="images/logo.png" alt="логотип">			
 			</div>
 		</a>
 		<div class="trigger">

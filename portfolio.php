@@ -203,7 +203,7 @@
 										<tr>
 											<td id="custom-input">
 												<div>
-													<div title="Нажмите на меня, для обзора файла">
+													<div title="Нажмите на меня, для обзора файла" id="fucking-input">
 														<span>
 															Загрузить изображение
 														</span>
@@ -226,7 +226,7 @@
 											<td><textarea name="" id="" placeholder="Пара слов о Вашем проекте"></textarea></td>
 										</tr>
 										<tr>
-											<td><button>Добавить</button></td>
+											<td id="add-but"><button>Добавить</button></td>
 										</tr>
 									</table>
 								</div>

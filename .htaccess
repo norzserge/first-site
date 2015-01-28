@@ -13,3 +13,5 @@ Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.portfolio\.karandash\.pw$ [NC]
 RewriteRule ^(.*)$ http://portfolio.karandash.pw/$1 [R=301,L]
+
+AddType text/x-component .htc

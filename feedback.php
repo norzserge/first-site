@@ -3,7 +3,7 @@
 if ( isset($_POST['capcha']) ) 
 { 
 $code = $_POST['capcha']; // Получаем переданную капчу. 
-/*session_start(); */
+session_start(); 
 
 // Сравниваем введенную капчу с сохраненной в переменной в сессии 
 if(isset($_SESSION['capcha']) && strtoupper($_SESSION['capcha']) == strtoupper($code))  
@@ -17,6 +17,7 @@ unset($_SESSION['capcha']);
 exit(); 
 } 
 ?>
+
 
 <!DOCTYPE html>
 <html>

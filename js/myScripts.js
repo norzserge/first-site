@@ -4,7 +4,6 @@ $(document).ready(function(){
     $('.nav ul li a').each(function () {    // проходим по нужным нам ссылками
         var location = window.location.href + ".php"; // переменная с адресом страницы
         var link = this.href;                // переменная с url ссылки
-        alert(location);
         var result = location.match(link);  // результат возвращает объект если совпадение найдено и null при обратном      
         if (location == "http://portfolio.karandash.pw/.php") {    // добавляем класс active сразу при открытии корня сайта
             $('.nav ul li:first-child').addClass('active-elem');
