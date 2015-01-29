@@ -15,6 +15,16 @@
 				<img src="images/logo.png" alt="логотип">			
 			</div>
 		</a>
+		<div class="trigger-m">
+			<a href="" id="menu-but-m"><img src="images/trigger.png" alt=""></a>
+			<div class="nav-m">
+				<ul>
+					<li><a href="about.php">Обо мне</a></li>
+					<li><a href="portfolio.php">Мои работы</a></li>
+					<li><a href="feedback.php">Связаться со мной</a></li>
+				</ul>
+			</div>
+		</div>
 		<div class="trigger">
 			<a href="" id="menu-but"><img src="images/trigger.png" alt=""></a>
 			<div class="nav">

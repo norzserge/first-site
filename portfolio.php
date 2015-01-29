@@ -247,6 +247,21 @@
 				<li><img src="images/scype-logo.png" alt="телефон" /><a href="scype:metelskiysa?chat">metelskiysa</a></li>
 			</ul>
 		</div>
+		<div class="contacts-bottom-m">
+			<ul>
+				<li><img src="images/phone.png" alt="телефон" /><a href="tel:89818824000">+7 981 882 4000</a></li>
+				<li><img src="images/mail.png" alt="электронная почта" /><a href="mailto:metelskiisa@mail.ru">metelskiisa@mail.ru</a></li>
+				<li><img src="images/scype-logo.png" alt="телефон" /><a href="scype:metelskiysa?chat">metelskiysa</a></li>
+			</ul>
+		</div>
+		<div id="social-m">
+			<div class="soc" data-buttoncolor="#58697a" data-size="60px" data-radius="circle" data-spacing="15px">
+				<a href="http://vk.com/serge_norilsk" class="soc-vkontakte" title="VKontakte"></a>
+				<a href="https://twitter.com/metelskiisa" class="soc-twitter" title="Twitter"></a>
+				<a href="https://github.com/norzserge" class="soc-github" title="GitHub"></a>
+			</div>
+			<script type="text/javascript" src="js/soc.js/soc.min.js"></script>
+		</div>
 	</div>
 
 	<?php require_once("pages/footer.php"); ?>
