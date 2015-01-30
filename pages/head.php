@@ -3,7 +3,7 @@
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet/less" type="text/css" href="css/style.less" />
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--[if IE 8]><link href="css/style.css" rel="stylesheet" type="text/css" /><![endif]-->
 <link rel="stylesheet" type="text/css" href="js/soc.js/soc.min.css" />
 <script type="text/javascript" src="js/less.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

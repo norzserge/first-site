@@ -15,6 +15,9 @@
 				<img src="images/logo.png" alt="логотип">			
 			</div>
 		</a>
+
+<!--[if !IE]><!-->
+
 		<div class="trigger-m">
 			<a href="" id="menu-but-m"><img src="images/trigger.png" alt=""></a>
 			<div class="nav-m">
@@ -35,6 +38,9 @@
 				</ul>
 			</div>
 		</div>
+
+<!-- <![endif]-->
+
 		<div id="social">
 			<div class="soc" data-buttoncolor="#58697a" data-size="40px" data-radius="circle" data-spacing="15px">
 				<a href="http://vk.com/serge_norilsk" class="soc-vkontakte" title="VKontakte"></a>

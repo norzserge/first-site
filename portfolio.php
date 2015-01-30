@@ -240,6 +240,9 @@
 			</div>
 		</div>
 		<div style="clear:both;"></div>
+
+<!--[if !IE]><!-->
+
 		<div class="contacts-bottom">
 			<ul>
 				<li><img src="images/phone.png" alt="телефон" /><a href="tel:89818824000">+7 981 882 4000</a></li>
@@ -262,6 +265,9 @@
 			</div>
 			<script type="text/javascript" src="js/soc.js/soc.min.js"></script>
 		</div>
+
+<!-- <![endif]-->
+
 	</div>
 
 	<?php require_once("pages/footer.php"); ?>
