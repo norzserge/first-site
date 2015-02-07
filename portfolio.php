@@ -190,18 +190,12 @@
 										<div id="round">&times;</div></a></div> 
 									</div>
 									<div class="modal-blue-line"></div>
-									<table border="0">
-										<tr>
-											<td class="even-td">Название проекта</td>
-										</tr>
-										<tr>
-											<td><input type="text" placeholder="Введите название"></td>
-										</tr>
-										<tr>
-											<td class="even-td">Картинка проекта</td>
-										</tr>
-										<tr>
-											<td id="custom-input">
+									<div class="modal-form">
+									<form action=""></form>
+											<label for="modal-input-name">Название проекта</label>
+											<input type="text" id="modal-input-name" name="modal-input-name" class="modal-input" placeholder="Введите название">
+											<label for="">Картинка проекта</label>
+											<div id="custom-input">
 												<div>
 													<div title="Нажмите на меня, для обзора файла" id="fucking-input">
 														<span>
@@ -211,24 +205,14 @@
 													</div>
 													<input type="file" name="file" id="file" size="1" >
 												</div>
-											</td>
-										</tr>
-										<tr>
-											<td class="even-td">URL проекта</td>
-										</tr>
-										<tr>
-											<td><input type="text" placeholder="Добавьте ссылку"></td>
-										</tr>
-										<tr>
-											<td class="even-td">Описание</td>
-										</tr>
-										<tr>
-											<td><textarea name="" id="" placeholder="Пара слов о Вашем проекте"></textarea></td>
-										</tr>
-										<tr>
-											<td id="add-but"><button>Добавить</button></td>
-										</tr>
-									</table>
+											</div>
+											<label for="modal-input-url">URL проекта</label>
+											<input class="modal-input" id="modal-input-url" name="modal-input-url" type="text" placeholder="Добавьте ссылку">
+											<label for="modal-textarea-comment">Описание</label>
+											<textarea class="modal-textarea" name="modal-textarea-comment" id="modal-textarea-comment" placeholder="Пара слов о Вашем проекте"></textarea>
+											<button class="button">Добавить</button>
+									</form>	
+									</div>	
 								</div>
 								<div id="mask"></div>
 							</div>
@@ -263,7 +247,6 @@
 				<a href="https://twitter.com/metelskiisa" class="soc-twitter" title="Twitter"></a>
 				<a href="https://github.com/norzserge" class="soc-github" title="GitHub"></a>
 			</div>
-			<script type="text/javascript" src="js/soc.js/soc.min.js"></script>
 		</div>
 
 <!-- <![endif]-->
@@ -271,6 +254,6 @@
 	</div>
 
 	<?php require_once("pages/footer.php"); ?>
-
+	<script type="text/javascript" src="js/soc.js/soc.min.js"></script>
 </body>
 </html>

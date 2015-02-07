@@ -1,16 +1,6 @@
-<!--[if lt IE 9]>
-   <script>
-      document.createElement('header');
-      document.createElement('nav');
-      document.createElement('section');
-      document.createElement('article');
-      document.createElement('aside');
-      document.createElement('footer');
-   </script>
-<![endif]-->
 <header class="header">
 	<div class="header-content">
-		<a href="#" title="На главную">
+		<a href="about.php" title="На главную">
 			<div id="logo">				
 				<img src="images/logo.png" alt="логотип">			
 			</div>
@@ -47,7 +37,6 @@
 				<a href="https://twitter.com/metelskiisa" class="soc-twitter" title="Twitter"></a>
 				<a href="https://github.com/norzserge" class="soc-github" title="GitHub"></a>
 			</div>
-			<script type="text/javascript" src="js/soc.js/soc.min.js"></script>
 		</div>
 	</div>	
 </header>

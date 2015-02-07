@@ -16,6 +16,13 @@ $(document).ready(function(){
         }
     });
 
+// фокус на поле input при клике на label
+
+    $('label').click(function() {
+       var labelID = $(this).attr('for');
+       $('#'+labelid).trigger('click');
+    });
+
 
 // скрываем value полей при клике
 	$('input,textarea').focus(function(){
